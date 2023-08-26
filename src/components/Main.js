@@ -7,7 +7,7 @@ export default function Main() {
     useEffect(() =>{
         const fetchData = async () => {
             try{
-                const res = await fetch('./assets/data.json');
+                const res = await fetch('/data.json');
                 if(!res.ok){
                     console.log('error');
                 }
