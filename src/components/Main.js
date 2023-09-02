@@ -74,7 +74,7 @@ export default function Main() {
     return (
         <>
             <main className='flex justify-center items-center phone:h-screen phone:w-screen mb-[5rem] mt-[5rem]  phone:m-[0]'>
-                <div className='main-wrapper grid grid-cols-1 gap-6 rounded-lg phone:w-[60%] phone:grid-cols-4 phone:h-[55%] '>
+                <div className='main-wrapper grid grid-cols-1 gap-6 rounded-lg phone:w-[80%] phone:grid-cols-4 phone:h-[50%] '>
                     <div className='card-container grid row-span-2 rounded-lg bg-darkBlue pb-[1rem]'>
                         <div className="card grid rounded-lg h-[90%] bg-Blue ">
                             <img className='w-[30%] border-2 rounded-full m-8' src={jeremyImg} alt='jeremy-image' />
@@ -91,7 +91,7 @@ export default function Main() {
                             return (
                                 <div className='container grid rounded-lg h-[98%]' key={index}>
                                     <div className='wrap self-end rounded-lg h-[80%] p-5 bg-darkBlue translate-y-1 cursor-pointer hover:bg-Blue'>
-                                        <div className='flex justify-between mb-[10px'>
+                                        <div className='flex justify-between mb-[10px]'>
                                             <h4>{item.title}</h4>
                                             <button className='flex text-white items-center w-[20px] h-[20px] text-[20px] '>...</button>
                                         </div>
