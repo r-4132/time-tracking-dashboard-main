@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       screens:{
-        'phone': {'max-width': '376px'},
+        'phone': {'min-width': '376px'},
       },
       colors:{
         Blue:"var(--Blue)",

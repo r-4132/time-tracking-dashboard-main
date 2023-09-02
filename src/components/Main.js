@@ -73,9 +73,9 @@ export default function Main() {
 
     return (
         <>
-            <main className='flex justify-center items-center h-screen w-screen'>
-                <div className='main-wrapper grid grid-cols-4 gap-6 rounded-lg h-[55%] w-[60%]'>
-                    <div className='card-container grid row-span-2 rounded-lg bg-darkBlue '>
+            <main className='flex justify-center items-center phone:h-screen phone:w-screen mb-[5rem] mt-[5rem]  phone:m-[0]'>
+                <div className='main-wrapper grid grid-cols-1 gap-6 rounded-lg phone:w-[60%] phone:grid-cols-4 phone:h-[55%] '>
+                    <div className='card-container grid row-span-2 rounded-lg bg-darkBlue pb-[1rem]'>
                         <div className="card grid rounded-lg h-[90%] bg-Blue ">
                             <img className='w-[30%] border-2 rounded-full m-8' src={jeremyImg} alt='jeremy-image' />
                             <p className='text-left px-8 mb-8 text-[12px] text-gray-400'>Report for<br></br><span className='text-[32px] leading-[38px] font-light text-white'> Jeremy Robson</span></p>
@@ -97,7 +97,7 @@ export default function Main() {
                                             <button className='flex text-white items-center w-[20px] h-[20px] text-[20px] '>...</button>
                                         </div>
                                         <h4 className="data-cur text-[42px] font-light">{selectDaily(item.title)}hrs</h4>
-                                        <p className='text-[12px] opacity-50 font-light'>Last week - <span className="data-prev">{selectPrev(item.title)}hrs</span></p>
+                                        <p className='text-[12px] opacity-50 font-light pb-[3rem]'>Last week - <span className="data-prev">{selectPrev(item.title)}hrs</span></p>
                                     </div>
 
                                 </div>
