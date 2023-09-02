@@ -85,7 +85,6 @@ export default function Main() {
                             <button className='hover:opacity-100  opacity-50' onClick={() => handleBtn('weekly')}>Weekly</button>
                             <button className='hover:opacity-100  opacity-50' onClick={() => handleBtn('monthly')}>Monthly</button>
                         </div>
-
                     </div>
                     {
                         data.map((item, index) => {
